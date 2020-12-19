@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace Assignment3_N01452091
+namespace BlogProject
 {
     public static class WebApiConfig
     {
@@ -11,10 +11,10 @@ namespace Assignment3_N01452091
         {
             // Web API configuration and services
 
+            config.EnableCors();
+
             // Web API routes
             config.MapHttpAttributeRoutes();
-
-            config.EnableCors();
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
