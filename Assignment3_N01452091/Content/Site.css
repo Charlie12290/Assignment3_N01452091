@@ -17,10 +17,25 @@ textarea {
 }
 
 
+nav{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
 .navlink {
-    text-align: right;
-    margin-top: 30px;
+    float: left;
+}
+.dellink {
+    color: #dd1111;
     float: right;
+}
+
+.delbutton {
+    display: block;
+    margin: 0 auto;
+    background: #dd1111;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 3px;
 }
 
 #containerlist, #containershow {
@@ -31,4 +46,22 @@ textarea {
 
 .listitem {
     margin: 10px 0;
+}
+
+.inputrow {
+    margin-bottom: 15px;
+    width: 40%;
+    overflow: hidden;
+}
+.inputrow input, .inputrow textarea {
+    float: right;
+}
+.inputrow textarea {
+    width: 100%;
+    max-width: none;
+    float: none;
+}
+.inputrow input[type="submit"] {
+    float: none;
+    margin-top: 50px;
 }

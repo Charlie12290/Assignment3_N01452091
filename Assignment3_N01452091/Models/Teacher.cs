@@ -12,5 +12,9 @@ namespace Assignment3_N01452091.Models
         public string TeacherFname;
         public string TeacherLname;
         public string EmployeeNumber;
+        public DateTime HireDate;
+
+        //parameter-less constructor function
+        public Teacher() { }
     }
 }
